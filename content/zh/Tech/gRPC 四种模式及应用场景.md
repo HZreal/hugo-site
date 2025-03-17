@@ -1,3 +1,13 @@
++++
+title = 'gRPC 介绍'
+date = 2025-01-08T09:32:11+08:00
+categories = ["Tech"]
+tags = ["gRPC"]
+keywords = ["SEO", "Keywords", "Here"]
+description = "SEO Description Here"
+draft = false
++++
+
 # gRPC 四种模式及应用场景
 
 在 gRPC 中，RPC 调用模式有四种，每种模式适用于不同的业务场景。下面将详细分析这四种模式及其对应的应用场景。

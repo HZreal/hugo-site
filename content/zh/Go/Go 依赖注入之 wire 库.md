@@ -1,3 +1,13 @@
++++
+title = 'Go 依赖注入之 wire 库'
+date = 2025-01-08T09:32:11+08:00
+categories = ["Go"]
+tags = ["Go", "Wire"]
+keywords = ["SEO", "Keywords", "Here"]
+description = "SEO Description Here"
+draft = false
++++
+
 # Go 依赖注入之 wire 库
 
 PS: 若不了解**控制反转**和依赖注入，可参考博文：https://blog.csdn.net/qq_38269333/article/details/139300610?spm=1001.2014.3001.5501

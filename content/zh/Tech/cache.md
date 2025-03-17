@@ -1,3 +1,13 @@
++++
+title = '缓存简介'
+date = 2025-01-08T09:32:11+08:00
+categories = ["Tech"]
+tags = ["redis"]
+keywords = ["SEO", "Keywords", "Here"]
+description = "SEO Description Here"
+draft = false
++++
+
 # 缓存
 
 ## 
