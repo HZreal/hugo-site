@@ -20,3 +20,7 @@ hugo
 git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
 echo "theme = 'ananke'" >> hugo.toml
 ```
+
+## 部署在 github pages
+
+https://gohugo.io/hosting-and-deployment/hosting-on-github/
