@@ -1,3 +1,13 @@
++++
+title = 'CentOS7  相关命令'
+date = 2025-01-08T09:32:11+08:00
+categories = ["operations"]
+tags = ["linux", "centOS]
+keywords = ["SEO", "Keywords", "Here"]
+description = "SEO Description Here"
+draft = false
++++
+
 # centOS7
 
 安装yum

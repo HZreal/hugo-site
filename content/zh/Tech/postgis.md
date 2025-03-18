@@ -1,3 +1,13 @@
++++
+title = 'pg 之空间数据 postgis 插件'
+date = 2025-01-08T09:32:11+08:00
+categories = ["database"]
+tags = ["postgresql"]
+keywords = ["SEO", "Keywords", "Here"]
+description = "SEO Description Here"
+draft = false
++++
+
 # postgis
 
 ## 安装扩展

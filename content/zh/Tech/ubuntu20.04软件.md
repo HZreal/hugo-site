@@ -1,3 +1,13 @@
++++
+title = 'ubuntu 上安装部分开发软件'
+date = 2025-01-08T09:32:11+08:00
+categories = ["operation"]
+tags = ["linux"]
+keywords = ["SEO", "Keywords", "Here"]
+description = "SEO Description Here"
+draft = false
++++
+
 # ubuntu20.04安装部分软件
 
 

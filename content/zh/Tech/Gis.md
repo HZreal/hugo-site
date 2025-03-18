@@ -1,3 +1,13 @@
++++
+title = 'gis 空间数据特征'
+date = 2025-01-08T09:32:11+08:00
+categories = ["others"]
+tags = ["gis"]
+keywords = ["SEO", "Keywords", "Here"]
+description = "SEO Description Here"
+draft = false
++++
+
 # Gis
 
 ## 空间数据

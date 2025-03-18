@@ -1,3 +1,13 @@
++++
+title = '代码提交规范之 Conventional Commits'
+date = 2025-01-08T09:32:11+08:00
+categories = ["tech"]
+tags = ["git"]
+keywords = ["SEO", "Keywords", "Here"]
+description = "SEO Description Here"
+draft = false
++++
+
 ## 引言
 
 在软件开发中，良好的版本控制实践是维持项目健康和可持续发展的关键。一个清晰、一致的提交历史不仅可以加强团队合作，还能提高代码的可维护性。本文将介绍 Conventional Commits 规范，一种帮助您实现这一目标的提交信息格式规范。

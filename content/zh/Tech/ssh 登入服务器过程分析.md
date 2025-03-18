@@ -1,3 +1,13 @@
++++
+title = 'ssh 连接过程'
+date = 2025-01-08T09:32:11+08:00
+categories = ["tech"]
+tags = []
+keywords = ["SEO", "Keywords", "Here"]
+description = "SEO Description Here"
+draft = false
++++
+
 ## 用户密码方式验证登入过程分析
 1. 客户端ssh向服务器发送连接请求，传递用户名及ip端口
 2. 服务端接收到请求，检查用户名是否存在，不存在则拒绝。反之，会将公钥及指纹（公钥对应的sha256值）发送给客户端

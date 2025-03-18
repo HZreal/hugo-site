@@ -1,3 +1,13 @@
++++
+title = '进程管理工具之 pm2'
+date = 2025-01-08T09:32:11+08:00
+categories = ["tool"]
+tags = ["nodejs"]
+keywords = ["SEO", "Keywords", "Here"]
+description = "SEO Description Here"
+draft = false
++++
+
 # PM2
 
 参考：https://mp.weixin.qq.com/s/S8Gw2XzuflnN2QMSVXhLhg
