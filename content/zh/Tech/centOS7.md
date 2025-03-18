@@ -1,7 +1,7 @@
 +++
 title = 'CentOS7  相关命令'
 date = 2025-01-08T09:32:11+08:00
-categories = ["operations"]
+categories = ["operation"]
 tags = ["linux", "centOS"]
 keywords = ["SEO", "Keywords", "Here"]
 description = "SEO Description Here"
