@@ -48,8 +48,8 @@ name = '标签'
 pageRef = '/tags'
 weight = 3
 [[languages.zh.menus.main]]
-name = '联系我'
-pageRef = '/contact'
+name = '个人中心'
+pageRef = '/profile'
 weight = 4
 
 [params]
