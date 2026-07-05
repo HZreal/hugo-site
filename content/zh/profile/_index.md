@@ -1,11 +1,8 @@
 +++
 title = '个人中心'
-date = 2026-07-04T01:30:00+08:00
+date = 2025-01-08T09:32:11+08:00
 description = 'Elastic Code 的个人技术中心，记录技术方向、技术栈、项目经验和个人技术空间。'
 draft = false
-
-[_build]
-list = 'never'
 +++
 
 # Elastic Code

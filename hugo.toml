@@ -1,74 +1,206 @@
-baseURL = "https://hzreal.github.io/" # Must end with splash
+baseURL = "https://hzreal.github.io/"
+title = "Elastic Code"
+theme = "blowfish"
+
 defaultContentLanguage = "zh"
 defaultContentLanguageInSubdir = true
+enableRobotsTXT = true
+enableEmoji = true
+summaryLength = 30
 
-staticDir = ["static", "themes/Niello/static"]
-
-theme = "Niello"
-
-[languages]
-[languages.en]
-title = "{CodeTrace} - Discover Issues, Share Solutions."
-languageCode = "en-us"
-LanguageName = "🇺🇸EN"
-contentDir = "content/en"
-weight = 1
-[[languages.en.menus.main]]
-name = 'Home'
-pageRef = '/'
-weight = 1
-[[languages.en.menus.main]]
-name = 'Categories'
-pageRef = '/categories'
-weight = 2
-[[languages.en.menus.main]]
-name = 'Tags'
-pageRef = '/tags'
-weight = 3
-[[languages.en.menus.main]]
-name = 'Contact'
-pageRef = '/contact'
-weight = 4
-[languages.zh]
-title = "{码途轨迹} - 发现问题，分享解决."
-languageCode = "zh-cn"
-LanguageName = "🇨🇳CN"
-contentDir = "content/zh"
-weight = 2
-[[languages.zh.menus.main]]
-name = '首页'
-pageRef = '/'
-weight = 1
-[[languages.zh.menus.main]]
-name = '文章分类'
-pageRef = '/categories'
-weight = 2
-[[languages.zh.menus.main]]
-name = '标签'
-pageRef = '/tags'
-weight = 3
-[[languages.zh.menus.main]]
-name = '个人中心'
-pageRef = '/profile'
-weight = 4
-
-[params]
-[params.google]
-google_ad_client = "ca-pub-******"  #Optional, replace ca-pub-****** with your content
-ga4 = "G-******" #Optional, replace G-****** with your Google Analytics GA4
-[params.bannershowcase]
-categories = ["AI"]
-limit = 2
-[params.email]
-contact = "hzreal0823@outlook.com"
-[params.ignore]
-categories = ["privacy", "terms", "archives", "cookie"]
-[params.license]
-copyright = "&#xA9; 2019 ~ 2025 by Nico. All Rights Reserved."
-[params.share]
-sharethis = "******"  # Optional, Add hou ShareThis appid here
-[params.disqus]
-shortname = "******"    # Optional, Disqus Short Name
+[pagination]
+pagerSize = 12
 
 [outputs]
-home = ["HTML", "JSON"]
+home = ["HTML", "RSS", "JSON"]
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+series = "series"
+
+[sitemap]
+changefreq = "daily"
+filename = "sitemap.xml"
+priority = 0.5
+
+[related]
+threshold = 0
+toLower = false
+
+[[related.indices]]
+name = "tags"
+weight = 100
+
+[[related.indices]]
+name = "categories"
+weight = 100
+
+[[related.indices]]
+name = "series"
+weight = 50
+
+[languages]
+[languages.zh]
+locale = "zh-cn"
+label = "简体中文"
+contentDir = "content/zh"
+weight = 1
+title = "Elastic Code"
+
+[languages.zh.params]
+displayName = "简体中文"
+isoCode = "zh-cn"
+dateFormat = "2006-01-02"
+description = "Elastic Code 的个人技术空间，记录服务端工程、架构设计、DevOps 与 AI 辅助研发实践。"
+
+[languages.zh.params.author]
+name = "Elastic Code"
+image = "image/logo.webp"
+headline = "乐享求知的全栈攻城狮"
+bio = "主攻服务端技术栈、系统架构设计、DevOps，持续沉淀技术文档和项目实践。"
+links = [
+  { github = "https://github.com/code-elastic" }
+]
+
+[[languages.zh.menus.main]]
+name = "首页"
+pageRef = "/"
+weight = 1
+
+[[languages.zh.menus.main]]
+name = "个人中心"
+pageRef = "profile"
+weight = 2
+
+[[languages.zh.menus.main]]
+name = "技术文档"
+pageRef = "docs"
+weight = 3
+
+[[languages.zh.menus.main]]
+name = "Go"
+parent = "技术文档"
+pageRef = "docs/go"
+weight = 1
+
+[[languages.zh.menus.main]]
+name = "基础语法"
+parent = "技术文档"
+pageRef = "docs/go/basic"
+weight = 2
+
+[[languages.zh.menus.main]]
+name = "高阶"
+parent = "技术文档"
+pageRef = "docs/go/advanced"
+weight = 3
+
+[[languages.zh.menus.main]]
+name = "框架"
+parent = "技术文档"
+pageRef = "docs/go/framework"
+weight = 4
+
+[[languages.zh.menus.main]]
+name = "工具"
+parent = "技术文档"
+pageRef = "docs/go/tools"
+weight = 5
+
+[[languages.zh.menus.main]]
+name = "博客"
+pageRef = "posts"
+weight = 4
+
+[[languages.zh.menus.main]]
+name = "项目"
+pageRef = "projects"
+weight = 5
+
+[[languages.zh.menus.main]]
+identifier = "github"
+pre = "github"
+url = "https://github.com/code-elastic"
+weight = 10
+
+[[languages.zh.menus.footer]]
+name = "分类"
+pageRef = "categories"
+weight = 1
+
+[[languages.zh.menus.footer]]
+name = "标签"
+pageRef = "tags"
+weight = 2
+
+[params]
+colorScheme = "blowfish"
+defaultAppearance = "dark"
+autoSwitchAppearance = false
+enableSearch = true
+enableCodeCopy = true
+enableStructuredBreadcrumbs = true
+disableTextInHeader = false
+fingerprintAlgorithm = "sha512"
+
+[params.header]
+layout = "fixed-fill-blur"
+
+[params.footer]
+showMenu = true
+showCopyright = true
+showThemeAttribution = false
+showAppearanceSwitcher = true
+showScrollToTop = true
+
+[params.homepage]
+layout = "background"
+showRecent = false
+layoutBackgroundBlur = true
+
+[params.article]
+showDate = true
+showAuthor = false
+showHero = true
+heroStyle = "background"
+showBreadcrumbs = true
+showDraftLabel = true
+showHeadingAnchors = true
+showPagination = true
+showReadingTime = true
+showTableOfContents = true
+showTaxonomies = true
+showCategories = true
+showTags = true
+showWordCount = true
+showZenMode = true
+
+[params.list]
+showHero = true
+heroStyle = "background"
+showBreadcrumbs = true
+showSummary = true
+showTableOfContents = false
+showCards = true
+groupByYear = false
+cardView = true
+cardViewScreenWidth = false
+
+[params.taxonomy]
+showTermCount = true
+showHero = true
+heroStyle = "background"
+cardView = true
+
+[params.term]
+showHero = true
+heroStyle = "background"
+showTableOfContents = true
+groupByYear = false
+cardView = true
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
