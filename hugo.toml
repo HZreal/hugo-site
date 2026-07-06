@@ -79,34 +79,58 @@ pageRef = "docs"
 weight = 3
 
 [[languages.zh.menus.main]]
-name = "Go"
+name = "Go 语言"
 parent = "技术文档"
-pageRef = "docs/go"
+pageRef = "docs/Go 语言"
 weight = 1
 
 [[languages.zh.menus.main]]
-name = "基础语法"
+name = "MySQL"
 parent = "技术文档"
-pageRef = "docs/go/basic"
+pageRef = "docs/MySQL"
 weight = 2
 
 [[languages.zh.menus.main]]
-name = "高阶"
+name = "Redis"
 parent = "技术文档"
-pageRef = "docs/go/advanced"
+pageRef = "docs/Redis"
 weight = 3
 
 [[languages.zh.menus.main]]
-name = "框架"
+name = "MQ"
 parent = "技术文档"
-pageRef = "docs/go/framework"
+pageRef = "docs/MQ"
 weight = 4
 
 [[languages.zh.menus.main]]
-name = "工具"
+name = "数据结构与算法 - Go"
 parent = "技术文档"
-pageRef = "docs/go/tools"
+pageRef = "docs/数据结构与算法 - Go"
 weight = 5
+
+[[languages.zh.menus.main]]
+name = "微服务"
+parent = "技术文档"
+pageRef = "docs/微服务"
+weight = 6
+
+[[languages.zh.menus.main]]
+name = "分布式"
+parent = "技术文档"
+pageRef = "docs/分布式"
+weight = 7
+
+[[languages.zh.menus.main]]
+name = "后端优化"
+parent = "技术文档"
+pageRef = "docs/后端优化"
+weight = 8
+
+[[languages.zh.menus.main]]
+name = "tech"
+parent = "技术文档"
+pageRef = "docs/tech"
+weight = 9
 
 [[languages.zh.menus.main]]
 name = "博客"
