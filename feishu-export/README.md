@@ -12,6 +12,18 @@
 
 ## 1. 准备下载清单
 
+`feishu2md` 固定使用本机命令：
+
+```bash
+/Users/huang/.local/bin/feishu2md
+```
+
+它是软链接，真实文件位于：
+
+```bash
+/Users/huang/Documents/tool/feishu2md-v2.4.5-darwin-arm64/feishu2md
+```
+
 复制示例文件：
 
 ```bash
@@ -38,7 +50,7 @@ cp feishu-export/links.example.tsv feishu-export/links.tsv
 python3 feishu-export/download_feishu.py \
   --manifest feishu-export/links.tsv \
   --output /Users/huang/Downloads/feishu \
-  --feishu2md /Users/huang/Downloads/free_download_manager/feishu2md-v2.4.5-darwin-arm64/feishu2md
+  --feishu2md /Users/huang/.local/bin/feishu2md
 ```
 
 下载后目录形如：

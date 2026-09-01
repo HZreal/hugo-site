@@ -17,7 +17,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--output", default="/Users/huang/Downloads/feishu", help="download root directory")
     parser.add_argument(
         "--feishu2md",
-        default="/Users/huang/Downloads/free_download_manager/feishu2md-v2.4.5-darwin-arm64/feishu2md",
+        default="/Users/huang/.local/bin/feishu2md",
         help="path to feishu2md binary",
     )
     parser.add_argument("--dry-run", action="store_true", help="print commands without executing")

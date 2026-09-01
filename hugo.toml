@@ -60,7 +60,7 @@ image = "image/logo.webp"
 headline = "乐享求知的全栈攻城狮"
 bio = "主攻服务端技术栈、系统架构设计、DevOps，持续沉淀技术文档和项目实践。"
 links = [
-  { github = "https://github.com/code-elastic" }
+  { github = "https://github.com/HZreal" }
 ]
 
 [[languages.zh.menus.main]]
@@ -145,7 +145,7 @@ weight = 5
 [[languages.zh.menus.main]]
 identifier = "github"
 pre = "github"
-url = "https://github.com/code-elastic"
+url = "https://github.com/HZreal"
 weight = 10
 
 [[languages.zh.menus.footer]]

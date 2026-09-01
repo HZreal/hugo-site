@@ -64,7 +64,7 @@ ChatGPT Desktop、Codex、AI 编程辅助、提示词工作流、技术资料检
 ## 技术空间
 
 - 邮箱：[hzreal0823@outlook.com](mailto:hzreal0823@outlook.com)
-- 个人技术空间：[www.elastic-code.com](http://www.elastic-code.com/)（维护中）
+- 个人技术空间：[https://my.elastic-code.com](http://www.elastic-code.com/)
 - CSDN 博客：[https://blog.csdn.net/qq_38269333?type=blog](https://blog.csdn.net/qq_38269333?type=blog)
 - GitHub Organization：[https://github.com/code-elastic](https://github.com/code-elastic)
 - GitHub Pages：[https://hzreal.github.io](https://hzreal.github.io/)

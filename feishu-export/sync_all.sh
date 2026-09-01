@@ -2,7 +2,7 @@
 set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-FEISHU2MD="${FEISHU2MD:-/Users/huang/Downloads/free_download_manager/feishu2md-v2.4.5-darwin-arm64/feishu2md}"
+FEISHU2MD="${FEISHU2MD:-/Users/huang/.local/bin/feishu2md}"
 MANIFEST="${MANIFEST:-${ROOT_DIR}/feishu-export/links.tsv}"
 DOWNLOAD_ROOT="${DOWNLOAD_ROOT:-/Users/huang/Downloads/feishu}"
 FEISHU_SOURCE="${FEISHU_SOURCE:-${DOWNLOAD_ROOT}/学习笔记}"
