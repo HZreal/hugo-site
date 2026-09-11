@@ -1,0 +1,14 @@
+{{- $href := "" -}}
+{{- with .Get "pageRef" -}}
+  {{- $href = relref $.Page . -}}
+{{- else -}}
+  {{- $href = $.Get "href" -}}
+{{- end -}}
+<a
+  class="ec-button !rounded-md px-4 py-2 !no-underline"
+  {{ with $href }}href="{{ . }}"{{ end }}
+  {{ with .Get "target" }}target="{{ . }}"{{ end }}
+  {{ with .Get "rel" }}rel="{{ . }}"{{ end }}
+  role="button">
+  {{ .Inner }}
+</a>
