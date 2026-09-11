@@ -21,4 +21,3 @@
 # Hugo
 .hugo_build.lock
 public/*
-themes/Niello/
