@@ -5,4 +5,4 @@ type = "docs"
 layout = "section"
 +++
 
-[bu](https://iqop6is7zk9.feishu.cn/wiki/UfzNwF4lYimMdrkMSuIcIIhpnxe)
+[布隆过滤器](https://iqop6is7zk9.feishu.cn/wiki/UfzNwF4lYimMdrkMSuIcIIhpnxe)

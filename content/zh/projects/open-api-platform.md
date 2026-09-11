@@ -6,6 +6,13 @@ tags = ['Go', 'Gateway', 'gRPC', 'SDK']
 categories = ['project']
 +++
 
-一个面向接口服务管理和调用的统一代理平台，关注接口注册、鉴权、防重放、服务拆分、网关治理和多语言 SDK 调用体验。
+Github 地址： {{< button href="https://github.com/HZreal/open-api-backend" target="_blank" >}}查看 GitHub{{< /button >}}
 
-{{< button href="https://github.com/HZreal/open-api-backend" target="_blank" >}}查看 GitHub{{< /button >}}
+接口服务平台，提供类似于短信、图片、天气等接口，但更抽象统一化的接口代理服务平台。提供用户接口服务，接口服务商入驻上架接口，收取服务费
+
+支持用户浏览、试用、开通、调用接口；管理员接口管理、上下架、统计等；服务商入驻、接口注册等
+
+系统包括子系统：接口统一管理服务（平台）、接口提供服务（实际接口提供源）、通用业务服务（统一模型、服务类）、网关服务（统一鉴权、路由、访问控制、统计计费等）、接口调用 SDK（用户多语言调用包）
+
+采用 gRPC 进行子系统通信；提供并发布不同语言 SDK；采用 Spring Cloud Gateway 网关进行路由转发、鉴权、限流、染色、业务统计、日志记录等
+
