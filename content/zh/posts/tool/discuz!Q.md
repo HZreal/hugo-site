@@ -6,6 +6,7 @@ tags = ["tool"]
 keywords = ["SEO", "Keywords", "Here"]
 description = "SEO Description Here"
 draft = false
+weights = 2
 +++
 
 # discuz!Q

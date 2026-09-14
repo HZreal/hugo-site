@@ -2,7 +2,7 @@
 title = 'ssh 连接过程'
 date = 2025-01-08T09:32:11+08:00
 categories = ["tech"]
-tags = []
+tags = ["ssh", "linux"]
 keywords = ["SEO", "Keywords", "Here"]
 description = "SEO Description Here"
 draft = false

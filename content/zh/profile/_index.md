@@ -93,6 +93,8 @@ ChatGPT Desktop、Codex、Claude、Gemini/Antigravity、Hermes
 
 详看 Github: https://github.com/HZreal
 
+或者----> {{< button href="/zh/projects/" target="_self" >}}项目专栏{{< /button >}}
+
 ## 网址导航
 
 - 邮箱：[hzreal0823@outlook.com](mailto:hzreal0823@outlook.com)

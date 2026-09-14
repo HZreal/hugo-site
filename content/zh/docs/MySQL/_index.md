@@ -1,6 +1,6 @@
 +++
 title = "MySQL"
-weight = 30
+weight = 98
 type = "docs"
 layout = "section"
 +++

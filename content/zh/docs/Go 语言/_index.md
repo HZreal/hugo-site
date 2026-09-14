@@ -1,8 +1,7 @@
 +++
 title = "Go 语言"
-weight = 10
+weight = 100
 type = "docs"
 layout = "section"
 +++
-
 
