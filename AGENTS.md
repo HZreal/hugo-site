@@ -69,4 +69,4 @@ rg -n "livereload|localhost:1313|127\\.0\\.0\\.1:1313" public || true
 
 ## Agent 注意事项
 
-默认用中文沟通。脚本或工具优先使用 Go、Python、JavaScript/TypeScript。若网络访问异常或下载超时，可以尝试本地系统代理。不要覆盖用户未说明的本地文档改动；提交前先看 `git status`，只暂存与当前任务相关的文件。
+不要覆盖用户未说明的本地文档改动；提交前先看 `git status`，只暂存与当前任务相关的文件。
